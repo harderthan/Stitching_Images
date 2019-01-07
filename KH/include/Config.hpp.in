@@ -1,0 +1,12 @@
+#ifndef CONFIG_HPP_IN_
+#define CONFIG_HPP_IN_
+#include <string>
+
+#define CMAKE_CURRENT_SOURCE_DIR @CMAKE_CURRENT_SOURCE_DIR@
+
+std::string getCmakeCurrentSourceDir(void)
+{
+    return "@CMAKE_CURRENT_SOURCE_DIR@";
+}
+
+#endif // CONFIG_HPP_IN_
